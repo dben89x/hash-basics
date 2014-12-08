@@ -32,6 +32,6 @@ tournaments = {
 #------- your code below here ---------
 
 #------- your code above here ---------
-
+person.merge!(tournaments)
 puts "Wins: #{person[:tournament_wins][:wimbledon].inspect}"
 puts "Losses: #{person[:tournament_losses][:wimbledon].inspect}"

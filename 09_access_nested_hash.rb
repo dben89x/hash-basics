@@ -24,3 +24,5 @@ person = {
 #   "122.4167"
 #
 #------- your code below here ---------
+
+person["address"]["coordinates"].values.each {|coord| p coord}
